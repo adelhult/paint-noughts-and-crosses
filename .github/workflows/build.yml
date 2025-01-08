@@ -31,7 +31,7 @@ jobs:
         run: |
           mkdir -p dist/build/dev/javascript
           cp index.html dist/index.html
-          cp -r build/dev/javascript dist/build/dev/javascript
+          cp -r build/dev/javascript dist/build/dev
           ls -R dist
       - name: Setup Pages
         uses: actions/configure-pages@v5
