@@ -131,7 +131,7 @@ fn view_winner_screen(winner: Option(Tile)) -> p.Picture {
     px: 20,
   )
   |> p.concat(
-    p.text("Press left mouse button to play again", px: 15)
+    p.text("Press to play again", px: 15)
     |> p.fill(colour.dark_gray)
     |> p.translate_y(25.0),
   )
