@@ -43,14 +43,14 @@ type PlayingState {
 
 // --- Constants ---
 
-const tile_size_px = 80.0
+const tile_size_px = 70.0
 
 const board_size = 3
 
 /// Center the board
 /// Update if other constants are changed:
-/// (400 - tile_size_px * board_size) / 2
-const offset_px = 80.0
+/// (300 - tile_size_px * board_size) / 2
+const offset_px = 45.0
 
 // --- API to access the game board ---
 
